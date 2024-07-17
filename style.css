@@ -1,0 +1,27 @@
+.profile{
+  margin-top: 6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  text-align: center;
+}
+.pfp{
+  border-radius: 50%;
+}
+.info{
+  margin-top: 20px;
+  color:cadetblue;
+}
+.bg-color{
+  background-color:#3FA2F6
+}
+@media(max-width:318px){
+  .image{width: 318px;}
+}
+@media(min-width:319px) and (max-width:480px){
+  .image{width:100% ;}
+}
+@media(min-width:481px) and (max-width:1200px){
+  .image{width: 100%;}
+}
